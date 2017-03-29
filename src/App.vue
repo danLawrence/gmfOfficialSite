@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <appNavHead></appNavHead>
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+    <compC></compC>
+    <!-- <img src="./assets/logo.png"> -->
+    <!-- <router-view></router-view> -->
   </div>
 </template>
 
 <script>
-import appNavHead from './components/app-nav-head'
+import compC from './components/comp-c'
 export default {
   name: 'app',
   components: {
-    appNavHead
+    compC
   }
 }
 </script>
@@ -21,7 +21,7 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: center; 
   color: #2c3e50;
   margin: 0;
 }
